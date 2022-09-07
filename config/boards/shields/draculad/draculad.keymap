@@ -136,7 +136,8 @@
                                    &kp LCTRL  &lt 1 ESC  &kp SPACE                         &kp RET  &lt 2 BSPC  &trans
             >;
 
-            sensor-bindings = <&inc_dec_kp C_VOL_DN C_VOL_UP &inc_dec_kp CARET DLLR>;
+            /*sensor-bindings = <&inc_dec_kp C_VOL_DN C_VOL_UP &inc_dec_kp CARET DLLR>;*/
+            sensor-bindings = <&inc_dec_kp C_VOL_DN C_VOL_UP>;
         };
 
         lower_layer {
@@ -147,7 +148,8 @@
                           &trans &trans &trans                        &trans &trans &trans
             >;
 
-            sensor-bindings = <&inc_dec_kp C_PREV C_NEXT &inc_dec_kp C_AC_SCROLL_DOWN C_AC_SCROLL_UP>;
+            /*sensor-bindings = <&inc_dec_kp C_PREV C_NEXT &inc_dec_kp C_AC_SCROLL_DOWN C_AC_SCROLL_UP>;*/
+            sensor-bindings = <&inc_dec_kp C_PREV C_NEXT>;
         };
 
         rise_layer {
