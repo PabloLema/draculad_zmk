@@ -10,11 +10,11 @@
 
 &sensors {
 	status = "okay";
-	sensors = <&encoder_left &encoder_right>;
+	sensors = <&left_encoder &right_encoder>;
 };
 
-&encoder_left { status = "okay"; };
-&encoder_right { status = "okay"; };
+&left_encoder { status = "okay"; };
+&right_encoder { status = "okay"; };
 
 &mt {
     tapping-term-ms = <50>;
