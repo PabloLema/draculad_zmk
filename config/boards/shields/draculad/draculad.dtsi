@@ -57,7 +57,7 @@ RC(2,0) RC(2,1) RC(2,2) RC(2,3) RC(2,4) RC(3,1)         RC(3,8) RC(2,5) RC(2,6) 
             resolution = <4>;
             status = "disabled";
     };
-    sensors {
+    sensors: sensors {
             compatible = "zmk,keymap-sensors";
             status = "disabled";
             /* sensors = <&left_encoder &right_encoder>; */
