@@ -51,6 +51,7 @@ rc(2,0) rc(2,1) rc(2,2) rc(2,3) rc(2,4) rc(3,1)         rc(3,8) rc(2,5) rc(2,6) 
             a-gpios = <&pro_micro_d 16 (gpio_active_high | gpio_pull_up)>;
             b-gpios = <&pro_micro_d 10 (gpio_active_high | gpio_pull_up)>;
             resolution = <4>;
+            status = "okay";
         };
 
     right_encoder: encoder_right {
@@ -61,11 +62,12 @@ rc(2,0) rc(2,1) rc(2,2) rc(2,3) rc(2,4) rc(3,1)         rc(3,8) rc(2,5) rc(2,6) 
             a-gpios = <&pro_micro_d 10 (gpio_active_high | gpio_pull_up)>;
             b-gpios = <&pro_micro_d 16 (gpio_active_high | gpio_pull_up)>;
             resolution = <4>;
+            status = "okay";
     };
 
-    /* sensors { */
-            /* compatible = "zmk,keymap-sensors"; */
-            /* sensors = <&left_encoder &right_encoder>; */
-    /* }; */
+    sensors {
+            compatible = "zmk,keymap-sensors";
+            sensors = <&left_encoder &right_encoder>;
+    };
 
 };
