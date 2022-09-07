@@ -1,13 +1,26 @@
+# manifest:
+  # remotes:
+    # - name: zmkfirmware
+      # url-base: https://github.com/zmkfirmware
+    # - name: macros
+      # url-base: https://github.com/caksoylar
+  # projects:
+    # - name: zmk
+      # remote: zmkfirmware
+      # revision: main
+      # import: app/west.yml
+  # self:
+    # path: config
 manifest:
   remotes:
     - name: zmkfirmware
       url-base: https://github.com/zmkfirmware
-    - name: macros
+    - name: caksoylar
       url-base: https://github.com/caksoylar
   projects:
     - name: zmk
-      remote: zmkfirmware
-      revision: main
+      remote: caksoylar
+      revision: split-encoder
       import: app/west.yml
   self:
     path: config
