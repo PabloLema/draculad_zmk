@@ -9,13 +9,13 @@
 #include <dt-bindings/zmk/bt.h>
 #include <dt-bindings/zmk/outputs.h>
 
-&sensors {
-	status = "okay";
-	sensors = <&left_encoder &right_encoder>;
-};
+/* &sensors { */
+	/* status = "okay"; */
+	/* sensors = <&left_encoder &right_encoder>; */
+/* }; */
 
-&left_encoder { status = "okay"; };
-&right_encoder { status = "okay"; };
+/* &left_encoder { status = "okay"; }; */
+/* &right_encoder { status = "okay"; }; */
 
 &mt {
     tapping-term-ms = <50>;
