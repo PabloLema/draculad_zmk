@@ -141,7 +141,7 @@
 
         lower_layer {
            bindings = <
-            &kp 1 &trans &trans &trans &trans                        &trans &trans &trans &trans &trans
+            &kp N1 &trans &trans &trans &trans                        &trans &trans &trans &trans &trans
             &trans &trans &trans &trans &trans                        &trans &trans &trans &trans &trans
             &trans &trans &trans &trans &trans &trans          &trans &trans &trans &trans &trans &trans
                           &trans &trans &trans                        &trans &trans &trans
@@ -152,7 +152,7 @@
 
         rise_layer {
            bindings = <
-            &kp 2 &trans &trans &trans &trans                        &trans &trans &trans &trans &trans
+            &kp N2 &trans &trans &trans &trans                        &trans &trans &trans &trans &trans
             &trans &trans &trans &trans &trans                        &trans &trans &trans &trans &trans
             &trans &trans &trans &trans &trans &trans          &trans &trans &trans &trans &trans &trans
                           &trans &trans &trans                        &trans &trans &trans
