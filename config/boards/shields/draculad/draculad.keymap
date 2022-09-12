@@ -33,20 +33,6 @@
             tapping-term-ms = <185>;
             bindings = <&kp DOT>, <&kp GT>;
         };
-        td3: tap_dance_3 {
-            compatible = "zmk,behavior-tap-dance";
-            label = "TAP_DANCE_3";
-            #binding-cells = <0>;
-            tapping-term-ms = <185>;
-            bindings = <&kp ESC>, <&kp CLCK>;
-        };
-        td4: tap_dance_4 {
-            compatible = "zmk,behavior-tap-dance";
-            label = "TAP_DANCE_4";
-            #binding-cells = <0>;
-            tapping-term-ms = <185>;
-            bindings = <&kp MINUS>, <&kp UNDER>;
-        };
         td5: tap_dance_5 {
             compatible = "zmk,behavior-tap-dance";
             label = "TAP_DANCE_5";
@@ -138,9 +124,9 @@
 
         default_layer {
            bindings = <
-            &tdqu     &td1    &td2       &kp P      &kp Y                                   &kp F           &kp G       &kp C   &kp R   &td15
-            &td13     &kp O   &kp E      &kp U      &kp I                                   &kp D           &kp H       &kp T   &kp N   &td14
-            &kp SEMI  &kp Q   &kp J      &kp K      &kp X  &kp CLCK                &kp C_PP &kp B           &kp M       &kp W   &kp V   &kp Z
+            &tdqu  &td1    &td2       &kp P      &kp Y                                   &kp F           &kp G       &kp C   &kp R   &td15
+            &td13  &kp O   &kp E      &kp U      &kp I                                   &kp D           &kp H       &kp T   &kp N   &td14
+            &td5   &kp Q   &kp J      &kp K      &kp X  &kp CLCK                &kp C_PP &kp B           &kp M       &kp W   &kp V   &kp Z
                                          &kp LCTRL  &lt 1 ESC  &mt LGUI SPACE               &mt RGUI RET    &lt 2 BSPC  &kp RALT
             >;
 
