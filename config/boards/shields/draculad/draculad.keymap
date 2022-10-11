@@ -132,7 +132,7 @@
             &trans       &trans &kp F5   &kp F12   &trans &trans          &trans &trans    &kp CARET  &kp DLLR        &trans &trans
                                 &trans   &trans    &trans                        &trans    &trans     &trans
             >;
-            sensor-bindings = <&inc_dec_kp PG_DN PG_UP>;
+            sensor-bindings = <&inc_dec_kp LC(LS(TAB)) LC(TAB)>;
         };
 
     };
