@@ -31,7 +31,7 @@
    &gqt LGUI SEMI   &kp Q       &kp J       &kp K       &kp X       &kp C_PP       &kp CLCK   &kp B           &kp M        &kp W      &kp V   &gqt RGUI Z  
                                 &kp LCTRL   &lt 1 ESC   &kp SPACE                             &gqt RALT RET   &lt 2 BSPC   &kp RALT
                         >;
-            sensor-bindings = <&inc_dec_kp C_VOL_DN C_VOL_UP>;
+            sensor-bindings = <&inc_dec_kp C_VOL_DN C_VOL_UP &inc_dec_kp C_PREV C_NEXT>;
         };
 
         lower_layer {
